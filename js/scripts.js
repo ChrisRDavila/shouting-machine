@@ -3,8 +3,6 @@ function shoutBackValue() {
     document.querySelector("#responseShout").innerText = shoutMessage.toUpperCase();
 }
 
-
-
 window.onload = function() {
   let form = document.querySelector("form");
   form.onsubmit = function(event) {
